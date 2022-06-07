@@ -19,14 +19,13 @@ public class User {
         return new User(email, password, name);
     }
 
-
     @Override
     public String toString() {
         return "User{" +
-               "email='" + email + '\'' +
-               ", password='" + password + '\'' +
-               ", name='" + name + '\'' +
-               '}';
+                "email='" + email + '\'' +
+                ", password='" + password + '\'' +
+                ", name='" + name + '\'' +
+                '}';
     }
 
 }
